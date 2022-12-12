@@ -8,7 +8,7 @@ class GetWeatherByCountryName{
 
   GetWeatherByCountryName(this.repository);
 
-  Future<Weather> execute(String cityName) async{
-    return await repository.getWeatherByCityName(cityName);
+  Future<Weather> execute(String countryName) async{
+    return await repository.getWeatherByCityName(countryName);
   }
 }
